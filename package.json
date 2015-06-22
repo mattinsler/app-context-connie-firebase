@@ -1,0 +1,28 @@
+{
+  "name": "app-context-connie-firebase",
+  "description": "connie-firebase initializer for app-context",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mattinsler/app-context-connie-firebase",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattinsler/app-context-connie-firebase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattinsler/app-context-connie-firebase/issues"
+  },
+  "main": "lib/app-context-connie-firebase",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "connie": "0.0.1",
+    "connie-firebase": "0.0.5"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "connie",
+    "connie-firebase",
+    "app-context",
+    "app-context-initialize"
+  ]
+}
