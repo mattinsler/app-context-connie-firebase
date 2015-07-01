@@ -17,7 +17,7 @@ var connieFirebase = require('app-context-connie-firebase');
 module.exports = AppContext.createContext({
   configure: function() {
     this.use(
-      AppContext.RunLevel.Connected,
+      AppContext.RunLevel.Configured,
       // load the configuration from firebase using connie
       connieFirebase('https://config-firebaseio.com/' + APP.environment)
     );
@@ -25,7 +25,7 @@ module.exports = AppContext.createContext({
     // you can optionally use app-context-connie-firebase through app-context-initialize
     var initialize = require('app-context-initialize');
     this.use(
-      AppContext.RunLevel.Connected,
+      AppContext.RunLevel.Configured,
       initialize(['connie-firebase', 'https://config-firebaseio.com/' + APP.environment])
     );
   }
