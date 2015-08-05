@@ -1,7 +1,7 @@
 {
   "name": "app-context-connie-firebase",
   "description": "connie-firebase initializer for app-context",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/mattinsler/app-context-connie-firebase",
   "repository": {
     "type": "git",
@@ -15,8 +15,8 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "connie": "0.0.1",
-    "connie-firebase": "0.0.5"
+    "connie": "0.0.2",
+    "connie-firebase": "0.0.6"
   },
   "devDependencies": {},
   "keywords": [
